@@ -3,10 +3,7 @@ p{
     margin-top: 0;
     margin-bottom: 0;
 }
-.thumbnail{
-    width: 380px;
 
-}
 .thumbnail img{
     width: 100%;
 }
@@ -26,20 +23,19 @@ p{
     border-radius: 50%;
 }
 .logo{
-    display: inline-block;
-    margin-right: 5px;
-    margin-top: 4px;
-
-    
 }
 .video-info{
-    display: inline-block;
-    vertical-align: top;
+
 }
 
-.video-container {
-    display: inline-block;
-    width: 380px;
-    vertical-align: top;
-    margin-right: 20px;
+.grid-layout{
+    display: grid;;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 14px;
+}
+
+.video-details{
+    display: grid;
+    grid-template-columns: 50px 1fr;
 }
