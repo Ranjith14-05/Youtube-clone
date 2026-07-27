@@ -1,3 +1,6 @@
+body{
+    margin-top: 80px;
+}
 p{
     font-family: roboto,Arial;
     margin-top: 0;
@@ -39,15 +42,18 @@ p{
 }
 
 /* Header Section */
-body{
-    margin: 0;
-}
 
 .header{
     height: 55px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom: 1px solid rgb(224, 224, 224);
 }
 .left-sec{
     width: 150px;
