@@ -19,24 +19,68 @@
             <input class="search-box" placeholder="Search" type="text">
             <button class="search-btn">
                 <img class="search-icon" src="Icons/search.svg" alt="">
+                <div class="tooltip">Search</div>
             </button>
             <button class="voice-btn">
                 <img class="voice-icon" src="Icons/voice-search-icon.svg" alt="">
+                <div class="tooltip">Voice Search</div>
             </button>
         </div>
         <div class="right-sec">
-            <img class="upload-icon" src="Icons/upload.svg" alt="">
-            <img class="youtube-apps-icon" src="Icons/youtube-apps.svg" alt="">
-            <img class="notification-icon" src="Icons/notifications.svg" alt="">
-            <img class="my-logo-icon" src="Channel logos/my-logo.png" alt="">
+            <div class="upload-container">
+                <img class="upload-icon" src="Icons/upload.svg" alt="">
+                <div class="tooltip">Upload</div>
+            </div>
+            <div class="apps-container">
+                <img class="youtube-apps-icon" src="Icons/youtube-apps.svg" alt="">
+                <div class="tooltip">Youtube apps</div>
+            </div>
+            <div class="notification-container">
+                <img class="notification-icon" src="Icons/notifications.svg" alt="">
+                <div class="tooltip">Notifications</div>
+                <div class="notification-count">3</div>
+            </div>
+            <div class="logo-container">
+                <img class="my-logo-icon" src="Channel logos/my-logo.png" alt="">
+                <div class="tooltip">My Channel</div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <div class="sidebar-link">
+            <img src="Icons/home.svg" alt="">
+            <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="Icons/explore.svg" alt="">
+            <div>Exoplore</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="Icons/subscriptions.svg" alt="">
+            <div>Subcriptions</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="Icons/youtube_shorts.svg" alt="">
+            <div>Youtube Shorts</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="Icons/youtube-music.svg" alt="">
+            <div>Youtube Music</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="Icons/library.svg" alt="">
+            <div>Library</div>
         </div>
     </div>
     <div class="grid-layout">
         
         <div class="video-container">
-            <div class="thumbnail">
-                <img src="Thumbnails/thumbnail1.jpeg" alt="Thumbnail">
-            </div>
+            <a href="https://youtu.be/dQw4w9WgXcQ?si=3x-_0pLORUAopOdf" target="_blank">
+                <div class="thumbnail">
+                    <img src="Thumbnails/thumbnail1.jpeg" alt="Thumbnail">
+                    <div class="video-time">2:08:45</div>
+                </div>
+            </a>
             <div class="video-details">
                 <div class="logo">
                     <img src="Channel logos/logo1.jpg" alt="">
@@ -60,6 +104,7 @@
             <div class="thumbnail">
                 <img src="Thumbnails/thubnail2.jpeg
                 " alt="Thumbnail">
+                <div class="video-time">48:16</div>
             </div>
             <div class="video-details">
                 <div class="logo">
@@ -82,6 +127,7 @@
         <div class="video-container">
             <div class="thumbnail">
                 <img src="Thumbnails/thumbnail3.jpeg" alt="Thumbnail">
+                <div class="video-time">1:35:22</div>
             </div>
             <div class="video-details">
                 <div class="logo">
@@ -105,6 +151,7 @@
         <div class="video-container">
             <div class="thumbnail">
                 <img src="Thumbnails/thumbnail4.jpeg" alt="Thumbnail">
+                <div class="video-time">3:42:11</div>
             </div>
             <div class="video-details">
                 <div class="logo">
@@ -127,6 +174,7 @@
         <div class="video-container">
             <div class="thumbnail">
                 <img src="Thumbnails/thumbnail5.jpeg" alt="Thumbnail">
+                <div class="video-time">1:12:38</div>
             </div>
             <div class="video-details">
                 <div class="logo">
@@ -151,6 +199,7 @@
             <div class="thumbnail">
                 <img src="Thumbnails/thumbnail6.jpeg
                 " alt="Thumbnail">
+                <div class="video-time">54:29</div>
             </div>
             <div class="video-details">
                 <div class="logo">
@@ -169,6 +218,152 @@
                 </div>
             </div>
         </div>
+
+        <div class="video-container">
+            <div class="thumbnail">
+                <img src="Thumbnails/thumbnail7.jpeg
+                " alt="Thumbnail">
+                <div class="video-time">2:18:40</div>
+            </div>
+            <div class="video-details">
+                <div class="logo">
+                    <img src="Channel logos/logo7.jpeg" alt="">
+                </div>
+                <div class="video-info">
+                    <div class="video-title">
+                        <p>Spring Boot REST API from Scratch</p>
+                    </div>
+                    <div class="author">
+                        <p>Java Masters</p>
+                    </div>
+                    <div class="video-stats">
+                        <p>1.5M views &middot; 9 months ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-container">
+            <div class="thumbnail">
+                <img src="Thumbnails/thumbnail8.jpeg
+                " alt="Thumbnail">
+                <div class="video-time">2:56:12</div>
+            </div>
+            <div class="video-details">
+                <div class="logo">
+                    <img src="Channel logos/logo8.jpeg" alt="">
+                </div>
+                <div class="video-info">
+                    <div class="video-title">
+                        <p>SQL Complete Course for Beginners</p>
+                    </div>
+                    <div class="author">
+                        <p>Data Flow/p>
+                    </div>
+                    <div class="video-stats">
+                        <p>2.9M views &middot; 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="video-container">
+            <div class="thumbnail">
+                <img src="Thumbnails/thumbnail9.jpeg
+                " alt="Thumbnail">
+                <div class="video-time">1:24:33</div>
+            </div>
+            <div class="video-details">
+                <div class="logo">
+                    <img src="Channel logos/logo9.jpeg" alt="">
+                </div>
+                <div class="video-info">
+                    <div class="video-title">
+                        <p>Figma UI Design Masterclass</p>
+                    </div>
+                    <div class="author">
+                        <p>Design Pixel</p>
+                    </div>
+                    <div class="video-stats">
+                        <p>894K views &middot; 5 months ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-container">
+            <div class="thumbnail">
+                <img src="Thumbnails/thumbnail10.jpeg
+                " alt="Thumbnail">
+                <div class="video-time">1:47:50</div>
+            </div>
+            <div class="video-details">
+                <div class="logo">
+                    <img src="Channel logos/logo10.jpeg" alt="">
+                </div>
+                <div class="video-info">
+                    <div class="video-title">
+                        <p>Build Your First Android App</p>
+                    </div>
+                    <div class="author">
+                        <p>Droid Academy</p>
+                    </div>
+                    <div class="video-stats">
+                        <p>2.1M views &middot; 11 months ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="video-container">
+            <div class="thumbnail">
+                <img src="Thumbnails/thumbnail11.jpeg
+                " alt="Thumbnail">
+                <div class="video-time">58:41</div>
+            </div>
+            <div class="video-details">
+                <div class="logo">
+                    <img src="Channel logos/logo11.jpeg" alt="">
+                </div>
+                <div class="video-info">
+                    <div class="video-title">
+                        <p>C++ Programming for Absolute Beginners</p>
+                    </div>
+                    <div class="author">
+                        <p>CodeNova</p>
+                    </div>
+                    <div class="video-stats">
+                        <p>4.5M views &middot; 2 years ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-container">
+            <div class="thumbnail">
+                <img src="Thumbnails/thumbnail12.jpeg
+                " alt="Thumbnail">
+                <div class="video-time">18:27</div>
+            </div>
+            <div class="video-details">
+                <div class="logo">
+                    <img src="Channel logos/logo12.jpeg" alt="">
+                </div>
+                <div class="video-info">
+                    <div class="video-title">
+                        <p>Build a Flutter App in One Hour</p>
+                    </div>
+                    <div class="author">
+                        <p>Flutter Zone</p>
+                    </div>
+                    <div class="video-stats">
+                        <p>1.6M views &middot; 8 months ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 </body>
 </html>
