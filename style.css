@@ -56,6 +56,17 @@ p{
     row-gap: 14px;
 }
 
+@media (max-width : 900px){
+    .grid-layout{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width:901px) and (max-width:1199px){
+    .grid-layout{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
 .video-details{
     display: grid;
     grid-template-columns: 50px 1fr;
